@@ -476,6 +476,8 @@ footer .categories h4{
 
 footer .categories img{
     width: 20%;
+    max-width: 288px;
+    height: fit-content;
     border: solid 2px black;
 }
 
@@ -527,6 +529,10 @@ footer .categories img{
 
     .page-inscription input, textarea{
         height: 25px;
+    }
+
+    footer {
+        font-size: 8px;
     }
 }
 
