@@ -507,7 +507,7 @@ footer p{
 
     header hr{
         width: 50%;
-        border: solid 0.2vw white;
+        height: 0.2vw;
         margin: 0.5vw 0;
     }
 
