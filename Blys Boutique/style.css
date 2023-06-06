@@ -626,13 +626,13 @@ footer p{
     }
     
     .FAQ .question{
-        width: 80vw;
+        width: 60vw;
         border: solid rgb(53, 54, 90) 0.8vw;
-        margin-bottom: 3vw;
+        margin-bottom: 6vw;
     }
     
     .FAQ .question p{
-        font-size: 5vw;
+        font-size: 3vw;
     }
 
     .inscription{
