@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@1,600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ysabeau Office', sans-serif;
+    background-color: black;
+}
+
+header{
+    background-color: black;
+    color: white;
+    min-height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vw;
+}
+
+header .buttonHeader{
+    width: 36vw;
+}
+
+header a button{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    color: white;
+    border: white solid 1px;
+    border-radius: 2vw;
+    padding: 0.8vw 3vw;
+    text-decoration: underline black;
+    transition: 0.5s;
+    font-size: 1.2vw;
+}
+
+header a button:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline white;
+    box-shadow: 0px 0px 20px white;
+}
+
+header a button hr{
+    display: none;
+}
+
+header img{
+    width: 4vw;
+    height: fit-content;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-around;
+    width: 36vw;
+    list-style-type: none;
+}
+
+header ul li a{
+    display: flex;
+    gap: 0.8vw;
+    text-decoration: none;
+    color: inherit;
+    transition: 0.5s;
+    position: relative;
+}
+
+header ul li a p{
+    display: none;
+}
+
+header ul li a:hover{
+    box-shadow: 0px 1px 0px white;
+}
+
+header ul li a img{
+    width: 2.5vw;
+    height: fit-content;
+}
+
+.presentation{
+    background-color: black;
+    text-align: center;
+}
+
+.presentation .text{
+    position: absolute;
+    top: 11vw;
+    padding: 0 20vw;
+    font-size: 2.5vw;
+    color: white;
+}
+
+.presentation img{
+    width: 98vw;
+    height: fit-content;
+}
+
+/* format tel */
+@media screen and (max-width: 768px) {
+    header img{
+        width: 10vw;
+    }
+
+    header ul li a img{
+        width: 5vw;
+    }
+
+    header a button p{
+        display: none;
+    }
+
+    header a button{
+        width: 9vw;
+        height: 9vw;
+        border-radius: 10vw;
+        transform: rotate(90deg);
+    }
+
+    header a button hr{
+        display: flex;
+        border: solid white 1px;
+        background-color: white;
+        margin: 0px 0.55vw;
+        height: 4vw;
+    }
+
+    header a button:hover{
+        transform: rotate(0deg);
+        background-color: black;
+        color: white;
+        text-decoration: underline black;
+        box-shadow: 0px 0px 20px white;
+    }
+
+    .presentation{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .presentation .text{
+        position: initial;
+        padding: 35vh 5vw 15vh 5vw;
+        height: 60vh;
+        font-size: 5vw;
+    }
+    
+}
+
+/* format laptop L */
+@media screen and (min-width: 1440px) {
+
+    header a button{
+        font-size: 1vw;
+    }
+
+    header ul li a p{
+        display: inherit;
+        font-size: 1vw;
+    }
+
+    header ul li a img{
+        height: 1.2vw;
+        width: fit-content;
+    }
+
+    header ul li a:hover{
+        box-shadow: none;
+    }
+
+    header ul li a p:hover{
+        box-shadow: 0px 1px 0px white;
+    }
+}
