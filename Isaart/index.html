@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="title">Isaart | Accueil</title>
+    <link rel="shortcut icon" href="header_retour_accueil.PNG" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="point">
+            <div class="pointCentral"></div>
+        </div>
+        
+        <a href="index.html"><img src="header_retour_accueil.PNG"></a>
+
+        <ul>
+            <li>
+                <div class="buttonRechercher" id="buttonRechercher">
+                    <img src="logo_recherche.PNG" id="LogoRecherche">
+                    <input type="text" placeholder="Rechercher" id="BarreRecherche">
+                </div>
+            </li>
+            <a href="#galeries"><li class="navBarre">
+                <p id="textToutVoir">Tout voir</p>
+                <div class="navBarrette"></div>
+            </li></a>
+            <a href="createur.html"><li class="navBarre">
+                <p id="textCreateur">Créateur</p>
+                <div class="navBarrette"></div>
+            </li></a>
+        </ul>
+    </header>
+
+    <section class="presentation" id="presentation">
+        <div class="text-presentation">
+            <h1>Isaart</h1>
+            <h2>Mes créations, mes expressions picturales, mon imagination mise en couleurs...</h2>
+        </div>
+    </section>
+
+
+    <section class="tableau" id="tableau">
+        <div class="textTableau" id="textTableau">
+            <h1 id="nomTableau">Ponam</h1>
+            <h2 id="descriptionTableau">Une nouvelle technique et un clin d'oeil à la talentueuse illustratrice Am Pone</h2>
+            <div class="sous-texte">
+                <p id="dimensionTableau">80cm x 60cm</p>
+                <p id="dateTableau">Mars 2018</p>
+            </div>
+        </div>
+        <div class="imgTableau" id="imgTableau">
+            <img src="pexels-steve-johnson-1606591.jpg">
+        </div>
+    </section>
+
+
+    <section class="selections" id="selections">
+
+        <h1>Notre sélection</h1>
+        <section class="selection" id="selection"></section>
+        <!-- se rempli sur js -->
+
+    </section>
+
+    <section class="galeries" id="galeries">
+
+        <h1 id="titreGalerie">Galerie</h1>
+        <section class="galerie" id="galerie"></section>
+        <!-- se rempli sur js -->
+    </section>
+
+    <section class="classification" id="classification">
+
+        <h1>Recherche par catégories</h1>
+        <section class="categories" id="categories"></section>
+        <!-- se rempli sur js -->
+
+    </section>
+
+
+    <footer>
+        <img src="logo_Isaart_fond_noir.PNG">
+        <p>Juin 2023. Les images de ce site ne sont pas libres de droit.</p>
+    </footer>
+    
+
+    <script type="module" src="app.js"></script>
+</body>
+</html>
