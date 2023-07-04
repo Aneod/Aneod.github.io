@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // pas de font
+}
+
+body{
+    background-color: rgb(0, 0, 29);
+    cursor: none;
+    overflow: hidden;
+
+    #fps{
+        color: rgba(127,127,127);
+        font-size: 6vw;
+        position: absolute;
+        right: 0px;
+    }
+
+    #timer{
+        color: rgba(255, 255, 255,00); //invisible
+        font-size: 6vw;
+        position: absolute;
+        left: 0px;
+    }
+
+    #ship{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        box-shadow: 0 0 40px white;
+    }
+
+    #balls{
+
+        .ball{
+            position: absolute;
+            left: 500px;
+            top: 500px;
+            width: 40px;
+            height: 40px;
+            background-color: white;
+            box-shadow: 0 0 40px white;
+            border-radius: 20px;
+            color:white;
+            overflow: hidden;
+        }
+    }
+}
